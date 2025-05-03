@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: #222;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.package-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.package-card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.package-card:hover {
+  background: #e0f7fa;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.form input {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background: #0b79d0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: -50px; /* Adjust to make About Us section appear behind */
+  position: relative;
+  z-index: -1;
+}
+.package-list {
+  display: flex;
+  flex-direction: column; /* Arranges items in a vertical column */
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.package-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.package-image-container {
+  flex-shrink: 0;
+  width: 120px;
+  margin-right: 20px;
+}
+
+.package-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.package-info {
+  flex-grow: 1;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+}
+h1 {
+  text-align: center;
+}

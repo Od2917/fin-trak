@@ -1,0 +1,20 @@
+/* Apply background image to the booking page */
+.booking-page {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipYKYNELT38LSePJXTSKSUASbihD0sAr_JQ&s") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Ensure the booking form is big enough and centered */
+  .form {
+    background: rgba(255, 255, 255, 0.9); /* Light background for readability */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+  }
